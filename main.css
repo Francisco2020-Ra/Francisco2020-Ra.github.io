@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+
+/*
+======================================MENU======================================
+*/
+
+.img{
+    background-image: url('./img/fondo.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#menu li > a{
+    font-size: 18px;
+    font-weight:bold;
+    color: #3f3f3f;
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight:bold;
+}
+
+/*
+======================================INTRO======================================
+*/
+
+.img-section{
+    background-image: url('./img/Caratulas/islas-caribe-barbados.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text{
+    text-align:justify !important;
+    border-color: black;
+
+}
+
+/*
+====================================== MEDIA QUERIES PANTALLA SM======================================
+*/
+@media (max-width:768px){
+    #intro{
+        width:90% !important;
+    }
+    .servicio-fila{
+        width:100% !important;
+        text-align: justify;
+
+    }
+}
+
+/*
+====================================== MEDIA QUERIES PANTALLA EXTRA-SM======================================
+*/
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .servicio-fila{
+            width:100% !important;
+            text-align: justify;
+
+     }
+     .imagen{
+            width:100% !important;
+
+     }
+
+}
